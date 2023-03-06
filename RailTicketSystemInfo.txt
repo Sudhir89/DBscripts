@@ -1,0 +1,25 @@
+Entities:
+
+Customer - Contains information about customers who purchase tickets, such as their name, address, email, and phone number.
+
+Train - Contains information about trains, such as the train number, train name, departure station, and arrival station.
+
+Ticket - Contains information about each ticket sold, such as the ticket number, price, date and time of purchase, and seat number.
+
+Schedule - Contains information about the schedule of each train, such as the departure and arrival times, and the days of the week when the train runs.
+
+Station - Contains information about each station, such as the station name and location.
+
+Employee - Contains information about employees who sell tickets, such as their name, employee ID, and job title.
+
+Relationships:
+
+Customer buys Ticket - Each ticket is purchased by a customer. A customer can purchase multiple tickets, but each ticket is associated with only one customer.
+
+Ticket is for Train - Each ticket is associated with a train. A train can have many tickets sold for it, but each ticket is associated with only one train.
+
+Train runs on Schedule - Each train runs on a schedule. A schedule is associated with only one train, but a train can have multiple schedules.
+
+Schedule has Station - Each schedule includes at least two stations, the departure and arrival stations. A station can be included in multiple schedules.
+
+Employee sells Ticket - Each ticket is sold by an employee. An employee can sell multiple tickets, but each ticket is associated with only one employee.
